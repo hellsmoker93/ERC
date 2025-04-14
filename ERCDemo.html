@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENFIELD ROYAL CLINIC DEMO</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            font-family: 'Arial Black', Gadget, sans-serif;
+            color: #cba56b;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+        }
+        h1, h2 {
+            color: #cba56b;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        p, input, textarea {
+            font-weight: bold;
+        }
+        .treatments, .promotions, .appointment, .contact {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .treatment-item, .promo-item {
+            display: flex;
+            flex-direction: column;
+            background-color: #1a1a1a;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #cba56b;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .appointment form, .contact {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea, button {
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        input, textarea {
+            background-color: #222;
+            color: #fff;
+        }
+        button {
+            background-color: #cba56b;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #b89350;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #cba56b;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ENFIELD ROYAL CLINICS DEMO</h1>
+    </header>
+
+    <section class="treatments">
+        <h2>Our Treatments</h2>
+
+        <div class="treatment-item">
+            <p><strong>Laser Therapy:</strong> Advanced non-invasive treatment for skin rejuvenation and hair removal.</p>
+        </div>
+
+        <div class="treatment-item">
+            <p><strong>Hair Transplant:</strong> Permanent solution for hair loss using the latest FUE techniques.</p>
+        </div>
+
+        <div class="treatment-item">
+            <p><strong>Facial Treatments:</strong> Deep cleansing, anti-aging, and hydration facials tailored to your skin type.</p>
+        </div>
+
+        <div class="treatment-item">
+            <p><strong>Medical Treatments:</strong> Botox, fillers, and dermatological care under expert supervision.</p>
+        </div>
+    </section>
+
+    <section class="promotions">
+        <h2>Promotional Offers</h2>
+
+        <div class="promo-item">
+            <p><strong>Laser Therapy Package:</strong> 5 sessions for AED 1###</p>
+        </div>
+
+        <div class="promo-item">
+            <p><strong>Hair Transplant:</strong> Starting from AED 7###</p>
+        </div>
+
+        <div class="promo-item">
+            <p><strong>Facial Package:</strong> 3 sessions for AED 9##</p>
+        </div>
+    </section>
+
+    <section class="appointment">
+        <h2>Book an Appointment</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <textarea placeholder="Preferred Treatment & Date" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Enfield Royal Clinics Demo</strong></p>
+        <p><strong>Address:</strong> Al Wasl Street, Dubai, UAE</p>
+        <p><strong>Phone:</strong> +971 505050505</p>
+        <p><strong>Email:</strong> contact@ERCDemo.ae</p>
+    </section>
+
+    <footer>
+        &copy; 2014 Enfield Royal Clinics. All rights reserved.
+    </footer>
+</body>
+</html>
